@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6,h7,p,a,button{
+    color: #ffffff;
+}
+
+body .container{
+    max-width: 1600px;
+}
+
+div.row.top_album{
+    margin: 10rem auto 0 auto;
+}
+
+div.top_album .title{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+}
+
+div.top_album .subtitle {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+}
+
+div.top_album div.text_album{
+    padding-top: 10rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.top_album div.text_album button{
+    padding: 1rem 1.8rem;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+}
+
+div.top_album div.text_album button.button_listen_now{
+    background-color: #50A584;
+    border: 1px solid #50A584;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+}
+
+div.top_album div.text_album button i{
+    margin-right: 5px;
+}
+
+div.top_album div.text_album .col-auto {
+    padding-right: 0;
+}
+
+div.top_album div.text_album button.button_share{
+    background-color: #000000;
+    border: solid 1px #F1F1F1;
+}
+
+div.top_album .text_vertical {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    text-align: left;
+    font-size: 20px;
+}
+
+div.text_on_bottom {
+    position: relative;
+    top: 17rem;
+    left: 15px;
+}
+
+div.text_on_bottom p{
+    margin: 0;
+}
